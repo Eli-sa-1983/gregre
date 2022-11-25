@@ -6,10 +6,10 @@ from PIL import Image
 st.sidebar.header('Velos, Trotinettes')
 
 def main_page():
-    st.markdown("# Main page 🎈")
-    st.sidebar.markdown("# Main page 🎈")
+    st.markdown("Les Dott de Grenoble!")
+    st.sidebar.markdown('Les Dott de Grenoble!')
     st.image('gretrott.jpeg')
-    st.title('Les Dott de Grenoble!')
+    
 
 def page2():
     st.markdown("# Page 2 ❄️")
