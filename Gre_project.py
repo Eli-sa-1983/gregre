@@ -1,4 +1,5 @@
 import streamlit as st
+npm install streamlit-component-lib
 from PIL import Image
 
 backgroundColor = '#273346'
