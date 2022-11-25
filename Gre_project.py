@@ -3,10 +3,10 @@ from PIL import Image
 
 
 
-st.sidebar.header('Velos, Trotinettes')
+st.sidebar.header('Les Dott de Grenoble!')
 
 def main_page():
-    st.markdown("Les Dott de Grenoble!")
+    st.markdown('Velos, Trotinettes')
     st.sidebar.markdown('Les Dott de Grenoble!')
     st.image('gretrott.jpeg')
     
