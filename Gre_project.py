@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 
-
+backgroundColor = '#273346'
 st.image('logo-grenoble.png',width=600)
 st.sidebar.header('Les Dott de Grenoble!')
 
