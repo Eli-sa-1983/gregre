@@ -8,6 +8,7 @@ st.sidebar.header('Velos, Trotinettes')
 def main_page():
     st.markdown("# Main page 🎈")
     st.sidebar.markdown("# Main page 🎈")
+    st.image('gretrott.jpeg')
 
 def page2():
     st.markdown("# Page 2 ❄️")
@@ -22,4 +23,4 @@ page_names_to_funcs = {
     "Page 2": page2,
     "Page 3": page3,
 
-st.image('gretrott.jpeg')
+
