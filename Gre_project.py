@@ -2,13 +2,14 @@ import streamlit as st
 from PIL import Image
 
 
-st.title('Les Dott de Grenoble!')
+
 st.sidebar.header('Velos, Trotinettes')
 
 def main_page():
     st.markdown("# Main page 🎈")
     st.sidebar.markdown("# Main page 🎈")
     st.image('gretrott.jpeg')
+    st.title('Les Dott de Grenoble!')
 
 def page2():
     st.markdown("# Page 2 ❄️")
