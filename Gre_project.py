@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 
 st.image('logo-grenoble.png',width=600)
-st.sidebar.image('dott_gre.jpeg',width=250)
+st.sidebar.image('dott_gre.jpeg',width=300)
 st.sidebar.header('Les Dott!')
 
 
