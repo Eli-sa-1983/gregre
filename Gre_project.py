@@ -3,6 +3,7 @@ from PIL import Image
 
 st.image('logo-grenoble.png',width=600)
 st.sidebar.header('Les Dott de Grenoble!')
+st.sidebar.image('logo-grenoble.png',width=600)
 
 def accueil():
     
