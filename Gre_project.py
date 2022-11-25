@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 
 st.image('logo-grenoble.png',width=600)
-st.sidebar.image('dott_gre.jpeg',width=300)
+
 st.sidebar.header('Les Dott!')
 
 
@@ -30,4 +30,4 @@ page_names_to_funcs = {
 selected_page = st.sidebar.selectbox("Select a page", page_names_to_funcs.keys())
 page_names_to_funcs[selected_page]()
 
-
+st.sidebar.image('dott_gre.jpeg',width=300)
