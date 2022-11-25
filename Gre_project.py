@@ -2,8 +2,9 @@ import streamlit as st
 from PIL import Image
 
 st.image('logo-grenoble.png',width=600)
-st.sidebar.header('Les Dott de Grenoble!')
-st.sidebar.image('logo-grenoble.png',width=600)
+st.sidebar.image('logo-grenoble.png',width=150)
+st.sidebar.header('Les Dott!')
+
 
 def accueil():
     
