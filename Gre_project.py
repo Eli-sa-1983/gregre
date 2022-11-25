@@ -6,7 +6,7 @@ from PIL import Image
 st.sidebar.header('Les Dott de Grenoble!')
 
 def accueil():
-    st.markdown('Velos, Trotinettes')
+    
     st.sidebar.markdown('Les Dott de Grenoble!')
     st.title('Dott, Trottinettes et Velos de Grenoble!')
     st.image('gretrott.jpeg')
