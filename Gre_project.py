@@ -2,14 +2,14 @@ import streamlit as st
 from PIL import Image
 
 
-st.image('groslogo.png')
+st.image('groslogo.png',width=1200)
 st.sidebar.header('Les Dott de Grenoble!')
 
 def accueil():
     
     st.sidebar.markdown('Les Dott de Grenoble!')
     st.title('Dott, Trottinettes et Velos de Grenoble!')
-    st.image('groslogo.png')
+    st.image('logo-grenoble.png')
     
 
 def page2():
