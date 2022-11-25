@@ -6,8 +6,8 @@ def main():
 
     pages = {
         'Accueil': Accueil,
-        'Première analyse': ,
-        'Les différentes corrélations': ,
+        'Première analyse'
+        'Les différentes corrélations'
         'Résultats par région' : region_results,
         }
 
