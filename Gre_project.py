@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 
 
-
+st.image('groslogo.png')
 st.sidebar.header('Les Dott de Grenoble!')
 
 def accueil():
