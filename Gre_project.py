@@ -9,7 +9,7 @@ def accueil():
     
     st.sidebar.markdown('Les Dott de Grenoble!')
     st.title('Dott, Trottinettes et Velos de Grenoble!')
-    st.image('gretrott.jpeg')
+    st.image('groslogo.png')
     
 
 def page2():
