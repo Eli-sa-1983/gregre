@@ -1,4 +1,5 @@
 import streamlit as st
+import requests 
 from PIL import Image
 
 st.image('logo-grenoble.png',width=600)
